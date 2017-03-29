@@ -3,3 +3,6 @@
 * [Node.js kernel preinstalled](https://github.com/jupyter/docker-stacks/blob/master/minimal-notebook/README.md)
 
 #Basic usage
+```
+docker run -it --rm -p 8888:8888 cinos81/nodejs-notebook
+```
