@@ -17,4 +17,4 @@ RUN npm install && node install.js
 RUN npm run build
 RUN npm run build-ext
 
-WORKDIR /home/$NB_USER
+WORKDIR /home/$NB_USER/work
